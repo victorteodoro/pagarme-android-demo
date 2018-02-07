@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="me.pagar.demoandroidpagarmempos.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+  <ProgressBar
+      android:id="@+id/progressBar"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      tools:layout_editor_absoluteX="130dp"
+      tools:layout_editor_absoluteY="205dp"
+      style="?android:attr/progressBarStyle"
+      />
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingTop="25dp"
+        style="@style/AppTheme.GreenDivision"
+        >
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/info_balance_title"
+          style="@style/AppTheme.InfoText"
+          />
+
+      <TextView
+          android:id="@+id/balance_amount"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/info_balance_amount"
+          style="@style/AppTheme.BalanceText"
+          />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/transactions_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/main_line_view"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+  </LinearLayout>
+
+  <!--<android.support.design.widget.FloatingActionButton
+      android:id="@+id/btn_new_payment"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      app:borderWidth="0dp"
+      android:src="@drawable/ic_add_white_24dp"
+      app:rippleColor="@color/dark_green_stone" />-->
+</RelativeLayout>

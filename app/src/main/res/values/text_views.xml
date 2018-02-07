@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="AppTheme.TextViewInCard">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:layout_centerInParent">true</item>
+  </style>
+
+  <style name="AppTheme.EditText">
+    <item name="android:backgroundTint">@color/light_green</item>
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme.Colors" parent="Theme.AppCompat.Light">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/light_green</item>
+    <item name="colorPrimaryDark">@color/dark_green_stone</item>
+    <item name="colorAccent">@color/dark_green</item>
+  </style>
+
+  <style name="AppTheme.TextInputLayout" parent="AppTheme.Colors">
+    <item name="colorControlNormal">@color/light_green</item>
+    <item name="colorControlActivated">@color/light_green</item>
+    <item name="colorControlHighlight">@color/light_green</item>
+    <item name="hintTextAppearance">@style/AppTheme.TextFloatLabelAppearance</item>
+    <item name="errorTextAppearance">@style/AppTheme.TextErrorAppearance</item>
+    <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+    <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
+  </style>
+
+  <style name="AppTheme.TextFloatLabelAppearance" parent="TextAppearance.Design.Hint">
+    <!-- Floating label appearance here -->
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="AppTheme.TextErrorAppearance" parent="TextAppearance.Design.Error">
+    <!-- Error message appearance here -->
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textColor">@color/red</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="AppTheme.SmallText" parent="AppTheme">
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">10sp</item>
+  </style>
+
+  <style name="AppTheme.HolderName" parent="AppTheme.SmallText">
+    <item name="android:textColor">@color/dark_green_stone</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="AppTheme.PAN" parent="AppTheme.SmallText">
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:textSize">15sp</item>
+  </style>
+
+  <style name="AppTheme.Amount" parent="AppTheme.SmallText">
+    <item name="android:textColor">@color/dark_green_stone</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="AppTheme.Date" parent="AppTheme.SmallText">
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:textSize">15sp</item>
+  </style>
+
+  <style name="AppTheme.InfoText" parent="AppTheme">
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">15sp</item>
+    <item name="android:layout_marginLeft">20dp</item>
+  </style>
+
+  <style name="AppTheme.BalanceText" parent="AppTheme">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:layout_marginTop">7dp</item>
+    <item name="android:layout_marginLeft">20dp</item>
+  </style>
+
+  <style name="AppTheme.AmountText" parent="AppTheme.BalanceText">
+    <item name="android:layout_marginTop">10dp</item>
+    <item name="android:layout_centerInParent">true</item>
+  </style>
+
+  <style name="AppTheme.DisplayAmountText" parent="AppTheme.BalanceText">
+    <item name="android:textColor">@color/dark_green_stone</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_centerInParent">true</item>
+    <item name="android:textSize">40sp</item>
+  </style>
+
+  <style name="AppTheme.TransactionScreenText">
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textColor">@color/dark_green_stone</item>
+    <item name="android:textSize">30sp</item>
+  </style>
+
+  <style name="AppTheme.TransactionInstallmentsDisplay" parent="AppTheme.TransactionScreenText">
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textColor">@color/dark_green_stone</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="AppTheme.TransactionInstallmentsText" parent="AppTheme.TransactionInstallmentsDisplay">
+    <item name="android:fontFamily">@font/exo_2_light</item>
+    <item name="android:textColor">@color/light_green</item>
+    <item name="android:textSize">15sp</item>
+  </style>
+</resources>

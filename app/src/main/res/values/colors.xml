@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="light_green">#91C83C</color>
+  <color name="dark_green">#032100</color>
+  <color name="dark_green_stone">#103A21</color>
+  <color name="accent_green">#074F01</color>
+  <color name="white">#FFF</color>
+  <color name="black">#000</color>
+  <color name="gray">#75717D</color>
+  <color name="red">#FF0000</color>
+
+  <color name="black_overlay">#66000000</color>
+</resources>
